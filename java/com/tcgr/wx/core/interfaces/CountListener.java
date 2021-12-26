@@ -1,0 +1,1 @@
+package com.tcgr.wx.core.interfaces;/** * Interface para contar a quantidade de items da Recycler View. * * Created by thomas on 29/03/16. */public interface CountListener {    void countItem(int id, int count);}

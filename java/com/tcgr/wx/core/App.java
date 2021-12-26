@@ -1,0 +1,1 @@
+package com.tcgr.wx.core;import android.app.Application;/** * Created by thomas on 05/01/16. * * @see android.app.Application */public class App extends Application {    private boolean isOnline;    public boolean isOnline() {        return isOnline;    }    public void setIsOnline(boolean isOnline) {        this.isOnline = isOnline;    }}

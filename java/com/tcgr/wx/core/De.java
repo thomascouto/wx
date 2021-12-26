@@ -1,0 +1,1 @@
+package com.tcgr.wx.core;import android.util.Log;import com.tcgr.wx.core.interfaces.Constants;import java.util.Arrays;/** * Created by thomas on 25/11/15. * * Debug class */public class De {    public static void bug(String... args) {        if(Constants.IS_DEBUG) {            Log.d("DEBUG CLASSE @Async", Arrays.toString(args));        }    }}
